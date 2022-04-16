@@ -1,0 +1,151 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.top-strip {
+	color: #fff;
+	background-color: #ff6600;
+	text-align: center;
+	padding: 15px;
+}
+
+.top-strip-text {
+	font-size: x-large;
+	font-weight: bolder;
+}
+
+.middle-strip {
+	text-align: center;
+	color: #ff6600;
+	padding: 10px;
+}
+
+.middle-strip-text {
+	font-weight: bolder;
+	font-size: 2.7em;
+}
+
+.navbar-bg-self {
+	background-color: #ff6600;
+	font-size: large;
+}
+
+.items {
+	margin-inline: 20px;
+}
+
+.footer {
+	background-color: #ff6600;
+	color: #fff;
+	font-size: small;
+	position: relative;
+	top:10px;
+}
+
+.footer a {
+	color: #fff;
+}
+.social{
+	background-color: #fff;
+}
+.copyright{
+	position: relative;
+	top:10px;
+}
+.address{
+	position: relative;
+	top:12px;
+}
+.email{
+	text-decoration: none;
+}
+.aarti-heading{
+	text-align: center;
+	font-weight: 600;
+}
+.card-heading{
+	font-size: medium;
+	font-weight: 600;
+	color: black;
+}
+.card-text{
+	font-size: medium;
+	color: black;
+}
+.card-link{
+	text-decoration: none;
+	padding: 10px;
+}
+.aarti-card{
+	margin-top: 19px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+}
+.aarti-card:hover{
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.aarti-page-box{
+	margin-top: 33px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.aarti{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin-top: 33px;
+	text-align: center;
+	
+}
+.aarti-cards{
+	padding: 20px;
+	text-align: center;
+}
+.row{
+	justify-content: center;
+}
+.pare-index{
+	text-align: center;
+	margin:43px auto 43px  auto;
+	font-family: 'Bebas Neue',cursive;
+	font-weight: 800;
+	font-size: large;
+	background: #fff;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+	width: fit-content;
+	justify-self: center;
+	justify-content: center;
+	align-items: center;
+	display: flex;	
+	border-style: double ;
+	border:dotted #ff6600 4px;;
+}
+
+
+.card {
+	grid-area: 1 / 1;
+	transform: translateX(10px) rotateY(25deg) rotateX(10deg);
+	background: rgba(249, 198, 26, 0.88);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 30px;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 60px;
+	backface-visibility: hidden;
+	box-shadow: 0 10px 30px -3px rgba(0, 0, 0, .1);
+}
+
+
+.card .enclosed {
+	background: #000;
+	line-height: 1;
+	color: rgba(249, 198, 26, 1);
+	padding: 0 5px;
+	display: inline-block;
+	transform: translate(-1px, 1px) scale(0.75);
+	transform-origin: right center;
+}
+
+
